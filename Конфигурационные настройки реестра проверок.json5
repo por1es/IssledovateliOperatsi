@@ -1,0 +1,2763 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 19,
+				"Name": "punktiChekLista",//Системное наименование атрибута
+				"Title": "Пункты чек-листа", //Пользовательское наименование атрибута
+				"Description": "", //Примечание к полю (подсказка пользователю)
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false, //Признак скрытия на форме
+				"CheckDuplicateContent": false //Признак осуществления проверки на создание дублирующих записей по этому атрибуту
+			},
+			{
+				"Kind": 0,
+				"Name": "nomerProverki",//Системное наименование атрибута
+				"Title": "Номер проверки", //Пользовательское наименование атрибута
+				"Description": "",  //Примечание к полю (подсказка пользователю)
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false, //Признак скрытия на форме
+				"CheckDuplicateContent": false //Признак осуществления проверки на создание дублирующих записей по этому атрибуту
+			},
+			{
+				"Kind": 7,
+				"Name": "dataProvedeniyaProverki",
+				"Title": "Дата проведения проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "chekListProverki",
+				"Title": "Чек-лист проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "otvetstvenniiZaObekt",
+				"Title": "Ответственный за объект",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 12,
+				"Name": "proveryayushchii",
+				"Title": "Проверяющий",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "obektProverki",
+				"Title": "Объект проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 19,
+				"Name": "fiksirovanieNarushenii",
+				"Title": "Фиксирование нарушений",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			//Скрытые от пользователя системные поля
+			{
+				"Kind": 0,
+				"Name": "CaseStatusScheme",
+				"Title": "Статусная схема",
+				"Description": "Статусная схема, по которой идёт данный кейс",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 18,
+				"Name": "CaseStatus",
+				"Title": "Статус",
+				"Description": "Статус кейса в соответствии со статусной схемой",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 19,
+				"Name": "CaseTasks",
+				"Title": "Задачи",
+				"Description": "Таски в данном кейсе, добавленные в соответствии с внутренней логикой сервиса «Кейсы»",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "reestrProverok", //Системное наименование
+		"Title": "Создание проверки", //Пользовательское наименование
+		"Description": null,
+		"RegistryTitle": "Реестр Проверок", //Отображаемое наименование ресстра
+		"GroupId": null,
+		"OrderNumber": 0,
+		"ImmutabilityId": "ada5200d-917c-413f-8721-1f34eaca1155",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": false,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "Проверка №{nomerProverki}", //Альтернативный заголовок объекта
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 1,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": false,
+		"BlockDuplicates": false,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": false,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "ebba9f40-14f9-4027-9c5c-15b9b8b286ca",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация", //Вкладка
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "punktiChekLista",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 8,
+							"Width": 12,
+							"Height": 51,
+							"Id": 53474,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "nomerProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53475,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "dataProvedeniyaProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53476,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "chekListProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 4,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53477,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "otvetstvenniiZaObekt",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 4,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53478,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "proveryayushchii",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53479,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "obektProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 4,
+							"Id": 53480,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					//Далее идут системные, не отображаемые поля
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			},
+			{
+				"Title": "Нарушения", //Вкладка
+				"Number": 1,
+				"FieldSettings": [
+					{
+						"Name": "fiksirovanieNarushenii",
+						"OrderNumber": null,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 12,
+							"Height": 60,
+							"Id": 53481,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					}
+				]
+			},
+			{
+				"Title": "Скрытая", //Техническая вкладка (невидимая пользователю)
+				"Number": 2,
+				"FieldSettings": [
+					{
+						"Name": "CaseStatusScheme",
+						"OrderNumber": 0,
+						"ChildTabNumber": 2,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 4,
+							"Height": 5,
+							"Id": 53482,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "CaseStatus",
+						"OrderNumber": 1,
+						"ChildTabNumber": 2,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 5,
+							"Width": 3,
+							"Height": 5,
+							"Id": 53483,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "CaseTasks",
+						"OrderNumber": 2,
+						"ChildTabNumber": 2,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 10,
+							"Width": 12,
+							"Height": 22,
+							"Id": 53484,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "punktiChekLista",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "nomerProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "dataProvedeniyaProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "chekListProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "proveryayushchii",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "obektProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "fiksirovanieNarushenii",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseTasks",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "punktiChekLista",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "nomerProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "dataProvedeniyaProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "chekListProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "proveryayushchii",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "obektProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "fiksirovanieNarushenii",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "punktiChekLista",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					//Дочерний реестр, на который ссылается поле
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "spravochnikkontrolnikhpokazatelei" 
+					},
+					//Прочие системные настройки поля
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Id}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "b35b610a-c2ad-4fc7-8d09-f57b300154e0"
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "nomerProverki",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					//Настройка автоинкремента
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": "1"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "1"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "dataProvedeniyaProverki",
+				"FieldKind": 7,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "OutputFormat",
+						"FieldKind": 4,
+						"Label": "Формат вывода значений",
+						"Description": "Формат вывода значений",
+						"DefaultValue": "dd.MM.yyyy",
+						"Value": "dd.MM.yyyy"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 7,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OnlyWorkDays",
+						"FieldKind": 2,
+						"Label": "Только рабочие дни",
+						"Description": "Только рабочие дни",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "chekListProverki",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					//Дочерний реестр, на который ссылается поле
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "cheklisti"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					//Шаблон вывода, видимый для пользователя при взаимодействии с полем
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{nazvanieChekLista}"
+					},
+					//Прочие системные настройки поля
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					//Дочерний реестр, на который ссылается поле
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "contacts"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "proveryayushchii",
+				"FieldKind": 12,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "contacts"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "f9ef3f44-9cff-4100-9c49-1b1caaf13f4b"
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементами",
+						"Description": "Возможность управления элементами",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": ""
+					}
+				]
+			},
+			{
+				"Name": "obektProverki",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "obektikompanii"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{naimenovanieObekta}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "fiksirovanieNarushenii",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "reestrnarushenii"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Id}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "6724769c-3cf5-47d5-a3e0-b33073e59c5f"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": "nomerProverki=Id,obektProverki=obektProverki,otvetstvennii=otvetstvenniiZaObekt,punktiChekLista=punktiChekLista"
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "dab5eecc-eff0-4f92-a792-6275cc4222b6"
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "CaseStatus",
+				"FieldKind": 18,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "casestatus"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "502457ff-ab98-451e-a69a-8ed94731fc4a"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементом",
+						"Description": "Возможность управления элементом",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": "true"
+					}
+				]
+			},
+			{
+				"Name": "CaseTasks",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "task"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Header}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "b43fe3ee-f5e6-48aa-8b11-37d5b13c7589"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	//Логика, настроенная в объекте
+	"Events": [
+		{
+			"ImmutabilityId": "fa87f702-5a2a-4f86-9a18-0777c604befc",
+			"OrderNumber": 0,
+			"Name": "Видимость Скрытой вкладки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": null,
+					"FieldName": "CurrentRoles",
+					"FieldKind": 15,
+					"EventVariableKind": 3,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "f96d3fd2-765f-49dc-bdff-55d774e3614c",
+					"FieldKind": 0,
+					"EventVariableKind": 1,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 6,
+						"ActionKind": 0,
+						"Value": "194",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 0,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 8,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 1
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "28a5741f-0ae0-4cc5-ac14-d6406c6dc644",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение полей Дата проведения проверки и Проверяющий",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "dataProvedeniyaProverki",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "proveryayushchii",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": null,
+						"PropertyValueKind": 6,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": null,
+						"PropertyValueKind": 6,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 3,
+									"CurrentDataFormat": 0,
+									"EventVariableName": null,
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "B",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 3,
+									"CurrentDataFormat": 4,
+									"EventVariableName": null,
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "9ca70acb-1fb6-4a88-bfbc-b346b9a166a1",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение поля Ответственный за объект",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "obektProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "7b7331d1-61fc-400f-a3db-df2611175c76",
+					"FieldName": "Id",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "otvetstvenniiZaObekt",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "7b7331d1-61fc-400f-a3db-df2611175c76",
+					"FieldName": "otvetstvenniiZaObekt",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "D",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "db239e2b-fde5-41e3-ae0e-7632605f681f",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Объект проверки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "obektProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "074d5138-7a5e-41d8-9352-22c9630f8ac4",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Дата проведения проверки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "dataProvedeniyaProverki",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "35926098-5ef3-4966-a65d-539ec96a28a1",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Чек-лист проверки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "chekListProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "77fbc9ce-dec0-4589-ac24-71ceaa4bc9d0",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение коллекции Пункты Чек-листа",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "chekListProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "Id",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "punktiChekLista",
+					"FieldKind": 19,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "punktiChekLista",
+					"FieldKind": 19,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "D",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "db2a4e38-ab00-4dd1-ad0d-91b0b9e5311e",
+			"OrderNumber": 0,
+			"Name": "Свойства полей",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "otvetstvenniiZaObekt",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "proveryayushchii",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "punktiChekLista",
+					"FieldKind": 19,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": true,
+				"EventConditionIfGroups": [],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 2,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "3dfcbb6d-d3e7-4266-96b5-e9e3c5caf811",
+			"OrderNumber": 0,
+			"Name": "Видимость вкладки Нарушения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "CaseStatus",
+					"FieldKind": 18,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "d2877bec-2641-4b19-a9cd-d45e427e51a2",
+					"FieldKind": 0,
+					"EventVariableKind": 1,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 1,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36079",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36078",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 0,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 8,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 1
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "dcfe33b6-6fea-4eeb-b954-b8d40d113672",
+			"OrderNumber": 0,
+			"Name": "Нередактируемость полей на статусе Проверка завершена",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "CaseStatus",
+					"FieldKind": 18,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "obektProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "chekListProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "dataProvedeniyaProverki",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "E",
+					"ObjectName": null,
+					"ObjectId": "ada5200d-917c-413f-8721-1f34eaca1155",
+					"FieldName": "fiksirovanieNarushenii",
+					"FieldKind": 19,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36079",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 2,
+						"EventVariableName": "D",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 3,
+						"EventVariableName": "E",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		}
+	],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "ebba9f40-14f9-4027-9c5c-15b9b8b286ca",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "CaseStatus",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "obektProverki",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "proveryayushchii",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "otvetstvenniiZaObekt",
+					"OrderNumber": 3,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "chekListProverki",
+					"OrderNumber": 4,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "dataProvedeniyaProverki",
+					"OrderNumber": 5,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		}
+	],
+	"Id": 213054,
+	"Deleted": false
+}

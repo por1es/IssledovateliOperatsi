@@ -1,0 +1,4241 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 12,
+				"Name": "kriteriiProverki",
+				"Title": "Критерий проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 16,
+				"Name": "danniePoUstraneniyuNarusheniya",
+				"Title": "Данные по устранению нарушения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 16,
+				"Name": "danniePoNarusheniyu",
+				"Title": "Данные по нарушению",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 20,
+				"Name": "summaShtrafa",
+				"Title": "Сумма штрафа",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 17,
+				"Name": "prinyatieMeri",
+				"Title": "Принятые меры",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 14,
+				"Name": "fotoUstraneniya",
+				"Title": "Фото устранения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 7,
+				"Name": "fakticheskiiSrokUstraneniya",
+				"Title": "Фактическая дата устранения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 7,
+				"Name": "srokUstraneniya",
+				"Title": "Срок устранения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 17,
+				"Name": "opisanieNarusheniya",
+				"Title": "Описание нарушения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 14,
+				"Name": "fotoNarusheniya",
+				"Title": "Фото нарушения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 7,
+				"Name": "dataRegistratsiiNarusheniya",
+				"Title": "Дата регистрации нарушения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "otvetstvennii",
+				"Title": "Ответственный",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "obektProverki",
+				"Title": "Объект проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 12,
+				"Name": "nomerProverki",
+				"Title": "Номер проверки",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "CaseStatusScheme",
+				"Title": "Статусная схема",
+				"Description": "Статусная схема, по которой идёт данный кейс",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 18,
+				"Name": "CaseStatus",
+				"Title": "Статус",
+				"Description": "Статус кейса в соответствии со статусной схемой",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 19,
+				"Name": "CaseTasks",
+				"Title": "Задачи",
+				"Description": "Таски в данном кейсе, добавленные в соответствии с внутренней логикой сервиса «Кейсы»",
+				"IsForeign": true,
+				"IsHiddenOnBoForm": true,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 20,
+				"Name": "premiyaOtvetstvennogo",
+				"Title": "Премия ответственного",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 1,
+				"Name": "srokDnei",
+				"Title": "Срок дней",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 20,
+				"Name": "shtraf",
+				"Title": "Штраф",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 19,
+				"Name": "punktiChekLista",
+				"Title": "Пункты чек-листа",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "reestrNarushenii",
+		"Title": "Фиксирование нарушения",
+		"Description": null,
+		"RegistryTitle": "Реестр Нарушений",
+		"GroupId": null,
+		"OrderNumber": 0,
+		"ImmutabilityId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": true,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "Нарушение",
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 1,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": false,
+		"BlockDuplicates": false,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": true,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "dab5eecc-eff0-4f92-a792-6275cc4222b6",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация",
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "kriteriiProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53629,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "danniePoUstraneniyuNarusheniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 7,
+							"Width": 12,
+							"Height": 3,
+							"Id": 53630,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "danniePoNarusheniyu",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 12,
+							"Height": 3,
+							"Id": 53631,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "summaShtrafa",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 10,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53632,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "prinyatieMeri",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 10,
+							"Id": 53633,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "fotoUstraneniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 14,
+							"Id": 53634,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "fakticheskiiSrokUstraneniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 10,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53635,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "srokUstraneniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 10,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53636,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "opisanieNarusheniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 10,
+							"Id": 53637,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "fotoNarusheniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 14,
+							"Id": 53638,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "dataRegistratsiiNarusheniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 10,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53639,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "otvetstvennii",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 53640,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "obektProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 2,
+							"CoordinateY": 0,
+							"Width": 4,
+							"Height": 4,
+							"Id": 53641,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "nomerProverki",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 2,
+							"Height": 4,
+							"Id": 53642,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			},
+			{
+				"Title": "Скрытая",
+				"Number": 1,
+				"FieldSettings": [
+					{
+						"Name": "CaseStatusScheme",
+						"OrderNumber": 0,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 28,
+							"Width": 4,
+							"Height": 5,
+							"Id": 53643,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "CaseStatus",
+						"OrderNumber": 1,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 33,
+							"Width": 3,
+							"Height": 5,
+							"Id": 53644,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "CaseTasks",
+						"OrderNumber": 2,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 38,
+							"Width": 12,
+							"Height": 22,
+							"Id": 53645,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "premiyaOtvetstvennogo",
+						"OrderNumber": null,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 22,
+							"Width": 3,
+							"Height": 6,
+							"Id": 53646,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "srokDnei",
+						"OrderNumber": null,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 22,
+							"Width": 3,
+							"Height": 6,
+							"Id": 53647,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "shtraf",
+						"OrderNumber": null,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 22,
+							"Width": 3,
+							"Height": 6,
+							"Id": 53648,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "punktiChekLista",
+						"OrderNumber": null,
+						"ChildTabNumber": 1,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 12,
+							"Height": 22,
+							"Id": 53649,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "kriteriiProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "danniePoUstraneniyuNarusheniya",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "danniePoNarusheniyu",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "summaShtrafa",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "prinyatieMeri",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "fotoUstraneniya",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "fakticheskiiSrokUstraneniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "srokUstraneniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "opisanieNarusheniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "fotoNarusheniya",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "dataRegistratsiiNarusheniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "otvetstvennii",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "obektProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "nomerProverki",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "CaseTasks",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "premiyaOtvetstvennogo",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "srokDnei",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "shtraf",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "punktiChekLista",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "kriteriiProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "danniePoUstraneniyuNarusheniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "danniePoNarusheniyu",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "summaShtrafa",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "prinyatieMeri",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "fotoUstraneniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "fakticheskiiSrokUstraneniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "srokUstraneniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "opisanieNarusheniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "fotoNarusheniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "dataRegistratsiiNarusheniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "otvetstvennii",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "obektProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "nomerProverki",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "CaseTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": false,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "premiyaOtvetstvennogo",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "srokDnei",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "shtraf",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "punktiChekLista",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "kriteriiProverki",
+				"FieldKind": 12,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "spravochnikkontrolnikhpokazatelei"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{naimenovanieKontrolnogoPokazatelya}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e"
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": "[{\"orderNumber\":0,\"conditionActionKind\":\"2\",\"name\":\"Id\",\"conditionOperatorKind\":0,\"fieldType\":1,\"value\":\"punktiChekLista\"}]"
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементами",
+						"Description": "Возможность управления элементами",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "6ef269e3-bb87-41d6-ab68-8e139d63c437"
+					}
+				]
+			},
+			{
+				"Name": "danniePoUstraneniyuNarusheniya",
+				"FieldKind": 16,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "GroupLabelFontSize",
+						"FieldKind": 4,
+						"Label": "Размер шрифта Наименования в интерфейсе",
+						"Description": "Размер шрифта Наименования в интерфейсе",
+						"DefaultValue": "16",
+						"Value": "16"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "FieldsBlockIsCollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Блок полей по умолчанию свернут на форме",
+						"Description": "Блок полей по умолчанию свернут на форме",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldsNamesInsideGroup",
+						"FieldKind": 3,
+						"Label": "FieldsNamesInsideGroup",
+						"Description": "FieldsNamesInsideGroup",
+						"DefaultValue": null,
+						"Value": "fotoUstraneniya,prinyatieMeri,fakticheskiiSrokUstraneniya,summaShtrafa"
+					}
+				]
+			},
+			{
+				"Name": "danniePoNarusheniyu",
+				"FieldKind": 16,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "GroupLabelFontSize",
+						"FieldKind": 4,
+						"Label": "Размер шрифта Наименования в интерфейсе",
+						"Description": "Размер шрифта Наименования в интерфейсе",
+						"DefaultValue": "16",
+						"Value": "16"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "FieldsBlockIsCollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Блок полей по умолчанию свернут на форме",
+						"Description": "Блок полей по умолчанию свернут на форме",
+						"DefaultValue": null,
+						"Value": "false"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldsNamesInsideGroup",
+						"FieldKind": 3,
+						"Label": "FieldsNamesInsideGroup",
+						"Description": "FieldsNamesInsideGroup",
+						"DefaultValue": null,
+						"Value": "opisanieNarusheniya,srokUstraneniya,fotoNarusheniya,dataRegistratsiiNarusheniya"
+					}
+				]
+			},
+			{
+				"Name": "summaShtrafa",
+				"FieldKind": 20,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "Decimals",
+						"FieldKind": 1,
+						"Label": "Количество знаков после запятой",
+						"Description": "Количество знаков после запятой",
+						"DefaultValue": null,
+						"Value": "2"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 20,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": "0,000000000000"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "IsMathRound",
+						"FieldKind": 2,
+						"Label": "Использовать математическое округление",
+						"Description": "Использовать математическое округление",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "prinyatieMeri",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "fotoUstraneniya",
+				"FieldKind": 14,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "PictureWidth",
+						"FieldKind": 1,
+						"Label": "Ширина изображения",
+						"Description": "Ширина изображения в пикселях",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "PictureHeight",
+						"FieldKind": 1,
+						"Label": "Высота изображения",
+						"Description": "Высота изображения в пикселях",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "ImageExtensions",
+						"FieldKind": 0,
+						"Label": "Допустимые расширения файла",
+						"Description": "Допустимые расширения файла",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "fakticheskiiSrokUstraneniya",
+				"FieldKind": 7,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "OutputFormat",
+						"FieldKind": 4,
+						"Label": "Формат вывода значений",
+						"Description": "Формат вывода значений",
+						"DefaultValue": "dd.MM.yyyy",
+						"Value": "dd.MM.yyyy"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 7,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OnlyWorkDays",
+						"FieldKind": 2,
+						"Label": "Только рабочие дни",
+						"Description": "Только рабочие дни",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": "false"
+					}
+				]
+			},
+			{
+				"Name": "srokUstraneniya",
+				"FieldKind": 7,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "OutputFormat",
+						"FieldKind": 4,
+						"Label": "Формат вывода значений",
+						"Description": "Формат вывода значений",
+						"DefaultValue": "dd.MM.yyyy",
+						"Value": "dd.MM.yyyy"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 7,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OnlyWorkDays",
+						"FieldKind": 2,
+						"Label": "Только рабочие дни",
+						"Description": "Только рабочие дни",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "opisanieNarusheniya",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "fotoNarusheniya",
+				"FieldKind": 14,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "PictureWidth",
+						"FieldKind": 1,
+						"Label": "Ширина изображения",
+						"Description": "Ширина изображения в пикселях",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "PictureHeight",
+						"FieldKind": 1,
+						"Label": "Высота изображения",
+						"Description": "Высота изображения в пикселях",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "ImageExtensions",
+						"FieldKind": 0,
+						"Label": "Допустимые расширения файла",
+						"Description": "Допустимые расширения файла",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "dataRegistratsiiNarusheniya",
+				"FieldKind": 7,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "OutputFormat",
+						"FieldKind": 4,
+						"Label": "Формат вывода значений",
+						"Description": "Формат вывода значений",
+						"DefaultValue": "dd.MM.yyyy",
+						"Value": "dd.MM.yyyy"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 7,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OnlyWorkDays",
+						"FieldKind": 2,
+						"Label": "Только рабочие дни",
+						"Description": "Только рабочие дни",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "otvetstvennii",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "contacts"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": "[{\"orderNumber\":0,\"conditionActionKind\":\"2\",\"name\":\"obekt\",\"conditionOperatorKind\":0,\"fieldType\":12,\"value\":\"obektProverki\"}]"
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "obektProverki",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "obektikompanii"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{naimenovanieObekta}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "nomerProverki",
+				"FieldKind": 12,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "reestrproverok"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{nomerProverki}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "ada5200d-917c-413f-8721-1f34eaca1155"
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементами",
+						"Description": "Возможность управления элементами",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "ebba9f40-14f9-4027-9c5c-15b9b8b286ca"
+					}
+				]
+			},
+			{
+				"Name": "CaseStatusScheme",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "CaseStatus",
+				"FieldKind": 18,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "casestatus"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "502457ff-ab98-451e-a69a-8ed94731fc4a"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементом",
+						"Description": "Возможность управления элементом",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": "true"
+					}
+				]
+			},
+			{
+				"Name": "CaseTasks",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "task"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Header}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "b43fe3ee-f5e6-48aa-8b11-37d5b13c7589"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": null
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "premiyaOtvetstvennogo",
+				"FieldKind": 20,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "Decimals",
+						"FieldKind": 1,
+						"Label": "Количество знаков после запятой",
+						"Description": "Количество знаков после запятой",
+						"DefaultValue": null,
+						"Value": "2"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 20,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "IsMathRound",
+						"FieldKind": 2,
+						"Label": "Использовать математическое округление",
+						"Description": "Использовать математическое округление",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "srokDnei",
+				"FieldKind": 1,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 1,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "shtraf",
+				"FieldKind": 20,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "Decimals",
+						"FieldKind": 1,
+						"Label": "Количество знаков после запятой",
+						"Description": "Количество знаков после запятой",
+						"DefaultValue": null,
+						"Value": "2"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 20,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "IsMathRound",
+						"FieldKind": 2,
+						"Label": "Использовать математическое округление",
+						"Description": "Использовать математическое округление",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "punktiChekLista",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "spravochnikkontrolnikhpokazatelei"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Id}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "6ef269e3-bb87-41d6-ab68-8e139d63c437"
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	//Логика, настроенная в объекте
+	"Events": [
+		{
+			"ImmutabilityId": "41a8fecb-7a64-4f59-8266-75200bdc5753",
+			"OrderNumber": 0,
+			"Name": "Свойства полей",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "obektProverki",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "nomerProverki",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "summaShtrafa",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "dataRegistratsiiNarusheniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": true,
+				"EventConditionIfGroups": [],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 2,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 3,
+						"EventVariableName": "D",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "dfd44580-9e19-4415-8531-9a1ab8f1383c",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение Даты регистрации нарушения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "dataRegistratsiiNarusheniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": null,
+						"PropertyValueKind": 6,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 3,
+									"CurrentDataFormat": 0,
+									"EventVariableName": null,
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "1c08f3fe-107d-41c5-9adb-c76485ead945",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Ответственный",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "otvetstvennii",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "e1c96e53-4734-425c-b0a1-59558bda2ac7",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Критерий проверки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "kriteriiProverki",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "c15dc936-4daf-4e11-b113-8e221d4e2629",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Фото нарушения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fotoNarusheniya",
+					"FieldKind": 14,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "cd6faefd-48b1-4b23-be4b-5e5b2a4041f3",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Срок устранения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "cfb5f4ba-39fc-4cb0-ba9c-bbcf0c9c4a26",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение полей из Критерия проверки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "kriteriiProverki",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e",
+					"FieldName": "Id",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "shtraf",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e",
+					"FieldName": "summaShtrafaRubPremii",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "E",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokDnei",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "F",
+					"ObjectName": null,
+					"ObjectId": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e",
+					"FieldName": "normativniiSrokUstraneniyaDnei",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "D",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "E",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "E",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "F",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "eb7a5287-8e03-422c-a9c9-3f313aeb3b69",
+			"OrderNumber": 0,
+			"Name": "Видимость скрытой вкладки",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "ac1c3edb-0e9d-45f1-a29f-709216ccf7b6",
+					"FieldKind": 0,
+					"EventVariableKind": 1,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": null,
+					"FieldName": "CurrentUser",
+					"FieldKind": 12,
+					"EventVariableKind": 3,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "430",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 0,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 8,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 1
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "4f102209-5815-490d-a4a5-71f5209ca9e3",
+			"OrderNumber": 0,
+			"Name": "Нередактируемость полей на статусе Устранение нарушения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "CaseStatus",
+					"FieldKind": 18,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "otvetstvennii",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "kriteriiProverki",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fotoNarusheniya",
+					"FieldKind": 14,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "E",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "F",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "opisanieNarusheniya",
+					"FieldKind": 17,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 1,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36082",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36083",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 2,
+						"EventVariableName": "D",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 3,
+						"EventVariableName": "E",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 4,
+						"EventVariableName": "F",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "dc3a4800-2605-485d-8511-be604237b091",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение поля Премия ответственого",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "otvetstvennii",
+					"FieldKind": 4,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "f9ef3f44-9cff-4100-9c49-1b1caaf13f4b",
+					"FieldName": "Id",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "premiyaOtvetstvennogo",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "f9ef3f44-9cff-4100-9c49-1b1caaf13f4b",
+					"FieldName": "premiya",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "D",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "6191d708-77bc-449c-9257-ad39867ae804",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение поля сумма штрафа %",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fakticheskiiSrokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "summaShtrafa",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "shtraf",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "E",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "premiyaOtvetstvennogo",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 2,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "D",
+						"ConditionOperatorKind": 5,
+						"ActionKind": 0,
+						"Value": "100",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": 2,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "E",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								},
+								{
+									"CalculationOperationKind": 3,
+									"OrderNumber": 1,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "D",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								},
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 2,
+									"CalculationOperandKind": 1,
+									"CurrentDataFormat": null,
+									"EventVariableName": null,
+									"Value": "100",
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "ad13426c-ef53-47e8-830b-ec64437085b0",
+			"OrderNumber": 0,
+			"Name": "Нередактируемость полей на Статусе Нарушение устранено",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "CaseStatus",
+					"FieldKind": 18,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fotoUstraneniya",
+					"FieldKind": 14,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fakticheskiiSrokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "prinyatieMeri",
+					"FieldKind": 17,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "36083",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 2,
+						"EventVariableName": "D",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "4ad3d9bc-fe41-498d-b8ee-3725b6d851fe",
+			"OrderNumber": 0,
+			"Name": "Невидимость группы полей Устранение нарушений",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "danniePoUstraneniyuNarusheniya",
+					"FieldKind": 16,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "CaseStatus",
+					"FieldKind": 18,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 1,
+						"ActionKind": 0,
+						"Value": "36082",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 1,
+						"ActionKind": 0,
+						"Value": "36083",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 8,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 0,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 1
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "7a35e0f5-bcdc-4e7f-ba0d-86df288e462d",
+			"OrderNumber": 0,
+			"Name": "Скрытие поля Сумма штрафа",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": null,
+					"FieldName": "CurrentRoles",
+					"FieldKind": 15,
+					"EventVariableKind": 3,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "summaShtrafa",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 0,
+						"Value": "217",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 8,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					},
+					{
+						"OrderNumber": 1,
+						"EventVariableName": "B",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 0,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 1
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "3e148c6f-a8b9-4835-a7e6-4205953bdb03",
+			"OrderNumber": 1,
+			"Name": "Автозаполнение поля Срок устранения",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "dataRegistratsiiNarusheniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokDnei",
+					"FieldKind": 1,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "kriteriiProverki",
+					"FieldKind": 12,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": null,
+						"PropertyValueKind": 6,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": 6,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								},
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 1,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "C",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		},
+		{
+			"ImmutabilityId": "19d1797b-94e3-48de-a9d2-1af937a97c06",
+			"OrderNumber": 2,
+			"Name": "Автозаполнение поля сумма штрафа",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "fakticheskiiSrokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": true
+				},
+				{
+					"Name": "B",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "srokUstraneniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "C",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "summaShtrafa",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "D",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "premiyaOtvetstvennogo",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				},
+				{
+					"Name": "E",
+					"ObjectName": null,
+					"ObjectId": "6724769c-3cf5-47d5-a3e0-b33073e59c5f",
+					"FieldName": "shtraf",
+					"FieldKind": 20,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 2,
+						"ActionKind": 2,
+						"Value": null,
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "B",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					},
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 1,
+						"EventVariableName": "E",
+						"ConditionOperatorKind": 2,
+						"ActionKind": 0,
+						"Value": "100",
+						"PropertyValueKind": null,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "C",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "C",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 0,
+									"CurrentDataFormat": null,
+									"EventVariableName": "E",
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": false,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": true
+		}
+	],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "dab5eecc-eff0-4f92-a792-6275cc4222b6",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "CaseStatus",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "nomerProverki",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "obektProverki",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "kriteriiproverki",
+					"OrderNumber": 3,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "otvetstvennii",
+					"OrderNumber": 4,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "dataRegistratsiiNarusheniya",
+					"OrderNumber": 5,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "srokUstraneniya",
+					"OrderNumber": 6,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "fakticheskiiSrokUstraneniya",
+					"OrderNumber": 7,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "summaShtrafa",
+					"OrderNumber": 8,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		},
+		{
+			"Id": "d12c51ba-3227-4fb6-b22a-21b171ca9418",
+			"Title": "Штрафы",
+			"UserId": null,
+			"IsDefault": false,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "obektProverki",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "kriteriiProverki",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "otvetstvennii",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "summaShtrafa",
+					"OrderNumber": 3,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": [
+				{
+					"Name": "",
+					"Value": null,
+					"ConditionKind": null,
+					"ConditionOperatorKind": null,
+					"OrderNumber": 0,
+					"Children": [
+						{
+							"Name": "summaShtrafa",
+							"Value": "0,00",
+							"ConditionKind": null,
+							"ConditionOperatorKind": 1,
+							"OrderNumber": 0,
+							"Children": [],
+							"FieldType": 0,
+							"Label": null,
+							"ShowLinkedCollectionFilter": false,
+							"CurrentDataFormatType": null
+						}
+					],
+					"FieldType": 0,
+					"Label": null,
+					"ShowLinkedCollectionFilter": false,
+					"CurrentDataFormatType": null
+				}
+			]
+		}
+	],
+	"Id": 211032,
+	"Deleted": false
+}

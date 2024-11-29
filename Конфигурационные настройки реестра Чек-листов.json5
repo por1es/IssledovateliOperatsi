@@ -1,0 +1,944 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 19,
+				"Name": "punktiChekLista",
+				"Title": "Пункты чек-листа",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 7,
+				"Name": "dataSozdaniya",
+				"Title": "Дата создания",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "opisanie",
+				"Title": "Описание",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "nazvanieChekLista",
+				"Title": "Название чек-листа",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "chekListi",
+		"Title": "Создание Чек-листа",
+		"Description": null,
+		"RegistryTitle": "Чек-листы",
+		"GroupId": null,
+		"OrderNumber": 0,
+		"ImmutabilityId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": false,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "{nazvanieChekLista}",
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 0,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": false,
+		"BlockDuplicates": false,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": false,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "00000000-0000-0000-0000-000000000000",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация",
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "punktiChekLista",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 12,
+							"Height": 98,
+							"Id": 52032,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "dataSozdaniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 52033,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "opisanie",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 0,
+							"Width": 6,
+							"Height": 4,
+							"Id": 52034,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "nazvanieChekLista",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 52035,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "punktiChekLista",
+				"IsAvailableInVisionSettings": false,
+				"IsSortable": false,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "dataSozdaniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "opisanie",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "nazvanieChekLista",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "punktiChekLista",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "dataSozdaniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "opisanie",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "nazvanieChekLista",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "punktiChekLista",
+				"FieldKind": 19,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "LinkedCollectionSourceReference",
+						"FieldKind": 4,
+						"Label": "Реестр",
+						"Description": "Реестр, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "spravochnikkontrolnikhpokazatelei"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Id}"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ObjectCopyBehavior",
+						"FieldKind": 4,
+						"Label": "Поведение при копировании объекта",
+						"Description": "В данном поле можно указать, что будет происходить с прикрепленными в поле объектами для копии",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность создавать и импортировать объекты в коллекцию",
+						"Description": "Возможность создавать и импортировать объекты в коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "QuickRecordCreation",
+						"FieldKind": 2,
+						"Label": "Быстрое создание записи",
+						"Description": "Быстрое создание записи",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanChooseRecordsFromRegistry",
+						"FieldKind": 2,
+						"Label": "Возможность выбирать записи из реестра",
+						"Description": "Возможность выбирать записи из реестра",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 31,
+						"Name": "CanPreFillBO",
+						"FieldKind": 2,
+						"Label": "Возможность предзаполнения полей бизнес-объектов",
+						"Description": "Возможность предзаполнения полей бизнес-объектов",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "FillLogic",
+						"FieldKind": 0,
+						"Label": "Логика заполнения",
+						"Description": "Логика заполнения",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 34,
+						"Name": "CollapsedByDefault",
+						"FieldKind": 2,
+						"Label": "Поле по умолчанию свернуто на форме",
+						"Description": "Поле по умолчанию свернуто на форме",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 35,
+						"Name": "VisionsDisplayLocation",
+						"FieldKind": 8,
+						"Label": "Отображение ракурсов в коллекции",
+						"Description": "Отображение ракурсов в коллекции",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 36,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 37,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": "6ef269e3-bb87-41d6-ab68-8e139d63c437"
+					},
+					{
+						"OrderNumber": 38,
+						"Name": "IsGroupedView",
+						"FieldKind": 2,
+						"Label": "Отображать сгруппированное представление реестра",
+						"Description": "Отображать сгруппированное представление реестра",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "dataSozdaniya",
+				"FieldKind": 7,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "OutputFormat",
+						"FieldKind": 4,
+						"Label": "Формат вывода значений",
+						"Description": "Формат вывода значений",
+						"DefaultValue": "dd.MM.yyyy",
+						"Value": "dd.MM.yyyy"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 7,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OnlyWorkDays",
+						"FieldKind": 2,
+						"Label": "Только рабочие дни",
+						"Description": "Только рабочие дни",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "opisanie",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "nazvanieChekLista",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	//Логика, настроенная в объекте
+	"Events": [
+		{
+			"ImmutabilityId": "26c48b66-b821-41b2-91e9-5f93cd161c34",
+			"OrderNumber": 0,
+			"Name": "Свойства полей",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "dataSozdaniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": true,
+				"EventConditionIfGroups": [],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": "",
+						"PropertyValueKind": 3,
+						"EventCalculation": null,
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "08e00226-f9ce-4663-bb25-8f1551123c12",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Название чек-листа",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "nazvanieChekLista",
+					"FieldKind": 0,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "6fba569a-8991-438d-921c-4b8bb66f3936",
+			"OrderNumber": 0,
+			"Name": "Обязательность поля Пункты чек-листа",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "punktiChekLista",
+					"FieldKind": 19,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 3,
+			"ScriptText": null,
+			"EventCondition": null,
+			"EventCalculation": null,
+			"EventValidation": {
+				"EventVariableName": "A",
+				"EventValidationParameters": [
+					{
+						"ValidationParameterKind": 4,
+						"ParameterValue": "true",
+						"ValidationControlType": 0,
+						"ErrorMessage": "Поле обязательно для заполнения",
+						"ControlNumber": null,
+						"BikFieldName": null
+					}
+				]
+			},
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": true,
+			"CalculateEventsOnBoFormFieldChange": false
+		},
+		{
+			"ImmutabilityId": "d6e98665-e74a-4b78-ba83-15ed8f2725bb",
+			"OrderNumber": 0,
+			"Name": "Автозаполнение поля Дата создания",
+			"Description": null,
+			"EventVariables": [
+				{
+					"Name": "A",
+					"ObjectName": null,
+					"ObjectId": "097e3075-0cd0-4068-960c-3e377c0c8fab",
+					"FieldName": "dataSozdaniya",
+					"FieldKind": 7,
+					"EventVariableKind": 0,
+					"IsTriggerForRecalculation": false
+				}
+			],
+			"EventKind": 1,
+			"ScriptText": null,
+			"EventCondition": {
+				"IsAlwaysTrue": false,
+				"EventConditionIfGroups": [
+					{
+						"Not": false,
+						"ConditionKind": 0,
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 1,
+						"Value": null,
+						"PropertyValueKind": 6,
+						"EventCalculation": null,
+						"EventVariableValueName": null,
+						"ParentId": null,
+						"Children": [],
+						"IsNested": false,
+						"NestedIfs": []
+					}
+				],
+				"EventConditionThens": [
+					{
+						"OrderNumber": 0,
+						"EventVariableName": "A",
+						"ConditionOperatorKind": 0,
+						"ActionKind": 2,
+						"Value": "",
+						"PropertyValueKind": null,
+						"EventCalculation": {
+							"EventVariableName": "A",
+							"EventCalculationLines": [
+								{
+									"CalculationOperationKind": null,
+									"OrderNumber": 0,
+									"CalculationOperandKind": 3,
+									"CurrentDataFormat": 0,
+									"EventVariableName": null,
+									"Value": null,
+									"AutofillType": 0,
+									"Aggregation": null,
+									"ParentId": null,
+									"Children": [],
+									"AdditionalValue": null,
+									"Preprocessing": null,
+									"PreprocessingIsUsed": false,
+									"Separator": null,
+									"MultiTransferParametersAreUsed": false,
+									"MultiTransferRange": 0,
+									"MultiTransferRangeFieldName": null,
+									"MultiTransferRangeCount": 0
+								}
+							]
+						},
+						"EventValidation": null,
+						"EventVariableValueName": null,
+						"ControlType": null,
+						"ErrorMessage": "",
+						"ConsequenceType": 0
+					}
+				]
+			},
+			"EventCalculation": null,
+			"EventValidation": null,
+			"CalculateEventsOnBoFormOpening": true,
+			"CalculateEventsOnBoFormSave": false,
+			"CalculateEventsOnBoFormFieldChange": false
+		}
+	],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "e6ecad76-97d8-4e1e-ab8b-1ec70183ceaf",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "nazvanieChekLista",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "opisanie",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "dataSozdaniya",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		}
+	],
+	"Id": 213053,
+	"Deleted": false
+}

@@ -1,0 +1,794 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 17,
+				"Name": "priznakNarusheniya",
+				"Title": "Признак нарушения",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 20,
+				"Name": "summaShtrafaRubPremii",
+				"Title": "Сумма штрафа (руб./% премии)",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 1,
+				"Name": "normativniiSrokUstraneniyaDnei",
+				"Title": "Нормативный срок устранения (дней)",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 17,
+				"Name": "opisaniePokazatelya",
+				"Title": "Описание показателя",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 4,
+				"Name": "gruppa",
+				"Title": "Группа",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "naimenovanieKontrolnogoPokazatelya",
+				"Title": "Наименование контрольного показателя",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": true
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "spravochnikKontrolnikhPokazatelei",
+		"Title": "Справочник контрольных показателей",
+		"Description": null,
+		"RegistryTitle": "Справочник контрольных показателей",
+		"GroupId": null,
+		"OrderNumber": 1,
+		"ImmutabilityId": "51ff8ce2-b35d-4be0-808f-a9c02e889d1e",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": true,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "Справочник контрольных показателей",
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 0,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": true,
+		"BlockDuplicates": true,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": true,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "00000000-0000-0000-0000-000000000000",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация",
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "priznakNarusheniya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 4,
+							"Width": 6,
+							"Height": 10,
+							"Id": 51773,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "summaShtrafaRubPremii",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 9,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51774,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "normativniiSrokUstraneniyaDnei",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 6,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51775,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "opisaniePokazatelya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 6,
+							"Height": 10,
+							"Id": 51776,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "gruppa",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51777,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "naimenovanieKontrolnogoPokazatelya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51778,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "priznakNarusheniya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "summaShtrafaRubPremii",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "normativniiSrokUstraneniyaDnei",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "opisaniePokazatelya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "gruppa",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "naimenovanieKontrolnogoPokazatelya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "priznakNarusheniya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "summaShtrafaRubPremii",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "normativniiSrokUstraneniyaDnei",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "opisaniePokazatelya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "gruppa",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "naimenovanieKontrolnogoPokazatelya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "priznakNarusheniya",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "summaShtrafaRubPremii",
+				"FieldKind": 20,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 22,
+						"Name": "DefaultValue",
+						"FieldKind": 20,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 21,
+						"Name": "Decimals",
+						"FieldKind": 1,
+						"Label": "Количество знаков после запятой",
+						"Description": "Количество знаков после запятой",
+						"DefaultValue": null,
+						"Value": "2"
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "IsMathRound",
+						"FieldKind": 2,
+						"Label": "Использовать математическое округление",
+						"Description": "Использовать математическое округление",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "normativniiSrokUstraneniyaDnei",
+				"FieldKind": 1,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 1,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "MustBeCalculated",
+						"FieldKind": 2,
+						"Label": "Вычислять сумму поля",
+						"Description": "Вычислять сумму поля",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "opisaniePokazatelya",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "gruppa",
+				"FieldKind": 4,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "gruppipokazateleikontrolya"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{naimenovanieGruppiPokazatelya}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": "naimenovanieGruppiPokazatelya"
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "naimenovanieKontrolnogoPokazatelya",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	"Events": [],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "6ef269e3-bb87-41d6-ab68-8e139d63c437",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "naimenovanieKontrolnogoPokazatelya",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "gruppa",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "priznakNarusheniya",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "summaShtrafaRubPremii",
+					"OrderNumber": 3,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "normativniiSrokUstraneniyaDnei",
+					"OrderNumber": 4,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		},
+		{
+			"Id": "b35b610a-c2ad-4fc7-8d09-f57b300154e0",
+			"Title": "Пункт Чек-листа",
+			"UserId": null,
+			"IsDefault": false,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "naimenovanieKontrolnogoPokazatelya",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "gruppa",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "priznakNarusheniya",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		}
+	],
+	"Id": 213051,
+	"Deleted": false
+}

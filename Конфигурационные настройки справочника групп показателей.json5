@@ -1,0 +1,380 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 17,
+				"Name": "opisanieGruppiPokazatelya",
+				"Title": "Описание группы показателя",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "naimenovanieGruppiPokazatelya",
+				"Title": "Наименование группы показателя",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": true
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "gruppiPokazateleiKontrolya",
+		"Title": "Группы показателей контроля",
+		"Description": null,
+		"RegistryTitle": "Группы показателей контроля",
+		"GroupId": null,
+		"OrderNumber": 2,
+		"ImmutabilityId": "20fbe03e-4338-4777-b9c9-f6c6ee6bff5c",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": true,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "Группы показателей контроля",
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 0,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": true,
+		"BlockDuplicates": true,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": true,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "00000000-0000-0000-0000-000000000000",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация",
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "opisanieGruppiPokazatelya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 4,
+							"Height": 10,
+							"Id": 51329,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "naimenovanieGruppiPokazatelya",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 4,
+							"Height": 4,
+							"Id": 51330,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "opisanieGruppiPokazatelya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "naimenovanieGruppiPokazatelya",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "opisanieGruppiPokazatelya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "naimenovanieGruppiPokazatelya",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "opisanieGruppiPokazatelya",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "naimenovanieGruppiPokazatelya",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	"Events": [],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "26253a9e-a725-4c77-9a28-43f72ade41fe",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "naimenovanieGruppiPokazatelya",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		}
+	],
+	"Id": 211031,
+	"Deleted": false
+}

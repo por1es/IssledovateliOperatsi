@@ -1,0 +1,543 @@
+{
+	"BoTemplate": {
+		"ChildBoTemplates": null,
+		//Атрибутивный состав
+		"BoTemplateFields": [
+			{
+				"Kind": 17,
+				"Name": "informatsiyaPoObektu",
+				"Title": "Информация по объекту",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 12,
+				"Name": "otvetstvenniiZaObekt",
+				"Title": "Ответственный за объект",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			},
+			{
+				"Kind": 0,
+				"Name": "naimenovanieObekta",
+				"Title": "Наименование объекта",
+				"Description": "",
+				"IsForeign": false,
+				"IsHiddenOnBoForm": false,
+				"CheckDuplicateContent": false
+			}
+		],
+		//Общие настройки реестра
+		"CollectionId": null,
+		"Name": "obektiKompanii",
+		"Title": "Объекты компании",
+		"Description": null,
+		"RegistryTitle": "Объекты компании",
+		"GroupId": null,
+		"OrderNumber": 0,
+		"ImmutabilityId": "7b7331d1-61fc-400f-a3db-df2611175c76",
+		"BusinessProcessDefinitionKey": null,
+		"ContinuousNumberingInitialValue": null,
+		"ContinuousNumberingStepValue": null,
+		"ExportableToWarehouse": true,
+		"ContinuousNumberingType": 0,
+		"IsNeedToCheckDigitalSignatureApplyingConditions": false,
+		"AlternateTitle": "Объекты компании",
+		"SendToBpNameAction": null,
+		"HasHierarchicalView": false,
+		"HierarchyKey": null,
+		"HierarchyLinkToParent": null,
+		"DefaultDocumentTemplateGuid": null,
+		"BusinessObjectType": 0,
+		"HandlingType": 0,
+		"UseComments": false,
+		"IsForeign": false,
+		"CheckDuplicates": false,
+		"BlockDuplicates": false,
+		"BoDeletionKind": 0,
+		"HasFilteringThroughRegistry": true,
+		"LinkedObjectsSavingRule": 1,
+		"HierarchicalViewOutputTemplate": null,
+		"RetentionWorkingDaysNumber": null,
+		"SendToBpConfirmation": false,
+		"IsVisionFixed": false,
+		"VisionsDisplayLocation": 0,
+		"ApplyContactsSecurityOnComments": false,
+		"QuickRecordCreation": false,
+		"QuickRecordCreationVision": "00000000-0000-0000-0000-000000000000",
+		"HasGroupedView": false,
+		"CloseBoAfterFormAction": false,
+		"CloseBoAfterFormOrCollectionAction": false
+	},
+	//Настройки формы создания нового объекта (расположение полей)
+	"FormSettings": {
+		"TabSettings": [
+			{
+				"Title": "Общая информация",
+				"Number": 0,
+				"FieldSettings": [
+					{
+						"Name": "informatsiyaPoObektu",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 4,
+							"Width": 6,
+							"Height": 10,
+							"Id": 51465,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "otvetstvenniiZaObekt",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 3,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51466,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "naimenovanieObekta",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": {
+							"CoordinateX": 0,
+							"CoordinateY": 0,
+							"Width": 3,
+							"Height": 4,
+							"Id": 51467,
+							"Deleted": false
+						},
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Id",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "ImmutabilityId",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					},
+					{
+						"Name": "Deleted",
+						"OrderNumber": null,
+						"ChildTabNumber": 0,
+						"FieldWidth": null,
+						"Coordinate": null,
+						"FieldLocation": 0
+					}
+				]
+			}
+		]
+	},
+	//Настройка доступности полей для вывода в представление и сортировки
+	"RegistrySettings": {
+		"ColumnSettings": [
+			{
+				"Name": "informatsiyaPoObektu",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "naimenovanieObekta",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Id",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "ImmutabilityId",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Deleted",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "SystemStatus",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			},
+			{
+				"Name": "Status",
+				"IsAvailableInVisionSettings": true,
+				"IsSortable": true,
+				"OrderNumber": 0
+			}
+		]
+	},
+	//Настройка возможности фильтрации записей по полям
+	"FilterSettings": {
+		"FieldSettings": [
+			{
+				"Name": "informatsiyaPoObektu",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "naimenovanieObekta",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Id",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ImmutabilityId",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Deleted",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "ActiveBpmTasks",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "SystemStatus",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			},
+			{
+				"Name": "Status",
+				"DefaultValue": null,
+				"IsIndexedForSearch": true,
+				"ShowLinkedCollectionFilter": false,
+				"OrderNumberForSearchFilter": null
+			}
+		]
+	},
+	//Детальные настройки каждого атрибута
+	"FormFieldProperties": {
+		"Fields": [
+			{
+				"Name": "informatsiyaPoObektu",
+				"FieldKind": 17,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 17,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			},
+			{
+				"Name": "otvetstvenniiZaObekt",
+				"FieldKind": 12,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DictionarySourceReference",
+						"FieldKind": 4,
+						"Label": "Справочник",
+						"Description": "Справочник, из которого берутся значения",
+						"DefaultValue": null,
+						"Value": "contacts"
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "SourceIsEnum",
+						"FieldKind": 3,
+						"Label": "Справочник является перечислением",
+						"Description": "Справочник является перечислением",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "OutputTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значений",
+						"Description": "Шаблон вывода значений поля",
+						"DefaultValue": null,
+						"Value": "{Name}"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "FieldForEnteringValueWhenImporting",
+						"FieldKind": 4,
+						"Label": "Поле для ввода значения при импорте",
+						"Description": "Поле для ввода значения при импорте",
+						"DefaultValue": null,
+						"Value": ""
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "FieldImmutabilityId",
+						"FieldKind": 3,
+						"Label": "FieldImmutabilityId",
+						"Description": "FieldImmutabilityId",
+						"DefaultValue": null,
+						"Value": "f9ef3f44-9cff-4100-9c49-1b1caaf13f4b"
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "RestrictionRule",
+						"FieldKind": 0,
+						"Label": "Правило ограничения вывода записей",
+						"Description": "Правило ограничения вывода записей",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ApplyLinkedRegistrySecurity",
+						"FieldKind": 2,
+						"Label": "Применять настройки безопасности связанного реестра",
+						"Description": "Применять настройки безопасности связанного реестра",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Идентификатор значения по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 30,
+						"Name": "CanManageLinkedItems",
+						"FieldKind": 2,
+						"Label": "Возможность управления элементами",
+						"Description": "Возможность управления элементами",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 32,
+						"Name": "IsVisionFixed",
+						"FieldKind": 2,
+						"Label": "Зафиксировать выбранные ракурсы в коллекции",
+						"Description": "Зафиксировать выбранные ракурсы в коллекции",
+						"DefaultValue": null,
+						"Value": "true"
+					},
+					{
+						"OrderNumber": 33,
+						"Name": "SourceVisions",
+						"FieldKind": 11,
+						"Label": "Ракурсы коллекции",
+						"Description": "Ракурсы коллекции",
+						"DefaultValue": null,
+						"Value": ""
+					}
+				]
+			},
+			{
+				"Name": "naimenovanieObekta",
+				"FieldKind": 0,
+				"FieldPropertyValues": [
+					{
+						"OrderNumber": 21,
+						"Name": "DefaultValue",
+						"FieldKind": 0,
+						"Label": "Значение по умолчанию",
+						"Description": "Значение по умолчанию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 22,
+						"Name": "AutoincrementInitialValue",
+						"FieldKind": 1,
+						"Label": "Начальное значение автоинкремента",
+						"Description": "Начальное значение автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 23,
+						"Name": "AutoincrementStepValue",
+						"FieldKind": 1,
+						"Label": "Приращение автоинкремента",
+						"Description": "Приращение автоинкремента",
+						"DefaultValue": "0",
+						"Value": "0"
+					},
+					{
+						"OrderNumber": 24,
+						"Name": "AutoincrementTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон выражения для автоинкремента",
+						"Description": "Шаблон выражения для автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 25,
+						"Name": "NeedToReset",
+						"FieldKind": 2,
+						"Label": "Начинать автоинкрементацию заново каждый год",
+						"Description": "Начинать автоинкрементацию заново каждый год",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 26,
+						"Name": "IsContinuousNumbering",
+						"FieldKind": 2,
+						"Label": "Использовать сквозную нумерацию",
+						"Description": "Использовать сквозную нумерацию",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 27,
+						"Name": "ContinuousNumberingTemplate",
+						"FieldKind": 0,
+						"Label": "Шаблон вывода значения сквозной нумерации",
+						"Description": "Шаблон вывода значения сквозной нумерации",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 28,
+						"Name": "AutoincrementKey",
+						"FieldKind": 0,
+						"Label": "Ключ автоинкремента",
+						"Description": "Ключ автоинкремента",
+						"DefaultValue": null,
+						"Value": null
+					},
+					{
+						"OrderNumber": 29,
+						"Name": "IsEditableViaRegistry",
+						"FieldKind": 2,
+						"Label": "Доступность редактирования через реестр или коллекцию",
+						"Description": "Доступность редактирования через реестр или коллекцию",
+						"DefaultValue": null,
+						"Value": null
+					}
+				]
+			}
+		]
+	},
+	"ChildBoTemplateSettings": null,
+	"Events": [],
+	//Варианты пользовательского отображения
+	"Visions": [
+		{
+			"Id": "1f53933e-517d-47f7-a74f-6002ede50341",
+			"Title": "Ракурс по умолчанию",
+			"UserId": null,
+			"IsDefault": true,
+			"IsForCollectionsAndDictionaries": false,
+			"VisionColumns": [
+				{
+					"Name": "naimenovanieObekta",
+					"OrderNumber": 0,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "otvetstvenniiZaObekt",
+					"OrderNumber": 1,
+					"IsFixed": false,
+					"Sort": null
+				},
+				{
+					"Name": "informatsiyaPoObektu",
+					"OrderNumber": 2,
+					"IsFixed": false,
+					"Sort": null
+				}
+			],
+			"VisionAccessedRoles": [],
+			"VisionFilters": []
+		}
+	],
+	"Id": 213052,
+	"Deleted": false
+}
